@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Users\ysfah\OneDrive\Desktop\New folder (3)</_PublishTargetUrl>
+    <History>True|2025-04-07T22:28:48.1857529Z||;True|2025-04-08T00:28:00.0982627+02:00||;True|2025-04-08T00:27:18.6855683+02:00||;True|2025-04-08T00:23:27.8874786+02:00||;False|2025-04-08T00:20:17.9908081+02:00||;False|2025-04-08T00:19:14.2663330+02:00||;False|2025-04-08T00:15:56.0202268+02:00||;True|2025-04-08T00:14:11.3323922+02:00||;True|2025-04-08T00:10:38.2500654+02:00||;True|2025-04-08T00:04:15.8597045+02:00||;True|2025-04-08T00:02:09.5453924+02:00||;True|2025-04-08T00:00:32.3691343+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Templates/Template1001.cshtml">
+      <publishTime>04/08/2025 00:06:07</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

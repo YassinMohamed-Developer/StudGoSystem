@@ -1,0 +1,62 @@
+Yassin Mohamed
+Computer Science Student
+yassinmohamed.cs@gmail.com +201110972184 Cairo, Egypt 
+https://www.linkedin.com/in/yassin-mohamed-566876229/ https://github.com/YassinMohamed-Developer 
+Profile
+My name is Yassin Mohamed and a Computer Science student at FCAI-HUI am a hard worker and fast learner person, I
+am an accomplished coder and programmer, and enjoy using my skills to contribute to the exciting technological
+advances that happen every day
+Education
+Bachelor of Computer Science, 
+Faculty of computers and artificial intelligence - Helwan University2021 – 2025  | Cairo, Egypt
+Professional Experience
+iSchool, Coding Instructor 05/2024 – 08/2024
+Digital Egypt Cubs, Instructor 03/2024 – 04/2024
+Projects
+EcoMart(E-commerce MVC) 12/2024 – 01/2025
+RepoLink: https://github.com/YassinMohamed-Developer/ECommerce
+DemoLink: https://ecomartapp.runasp.net/
+•Designed and developed a robust MVC website using ASP.NET Core 8, Following a 3-layer Architecture.
+•Admin Area: Facilitates management of categories, products and adding companies
+•Customer Area: Enables seamless browsing, adding products to the cart and completing orders.
+•Technologies Used : C#, ASP.NET Core MVC, Entity Framework Core, ASP.NET Core Identity, Sripe Gateway  
+Integration.
+Vax Manager-ASP.NET Core API 01/2025 – 02/2025
+RepoLink: https://github.com/YassinMohamed-Developer/VaxManager
+VaxManager is a ASP.NET Core API designed for vaccine management, following an N-layer architecture. The system 
+enables patients to register, log in, and enroll in a vaccine center to receive their first and second doses. Vaccine  
+centers manage vaccine distribution, while admins can oversee registered patients and centers.
+Technologies Used : C#,Asp.NET Core API,Entity FrameWork Core,JWT,SignalR for real-time notifications,Twilio for  
+SMS notifications,MailKit for email notifications
+Store.Web - ASP.NET Core API Project 09/2024 – 11/2024
+RepoLink: https://github.com/YassinMohamed-Developer/Store.Web
+Built a RESTful API in ASP.NET Core with endpoints for managing products and orders. Integrated JWT-based  
+authentication and used Entity Framework Core with SQL Server for data management. Applied a clean, n-tier  
+architecture (Data, Repository, Services) to ensure scalability and maintainability.
+Examination-System(Console Application)
+RepoLink: https://github.com/YassinMohamed-Developer/Examination-System
+Developed an Examination Management System by implementing OOP principles in C#.Technical Skills
+C#
+SQL Server
+Entity Framework
+OOP
+ASP.NET Core
+ASP.NET Web APIASP.NET Web MVC
+Html
+C++
+CSS
+Java Script
+Git/Github
+Soft Skills
+Problem Solving
+Computer proficiency
+Communication
+Willingness to LearnCollaboration talent
+Creativity
+Multitasking
+Presentation Skills
+Languages
+Arabic English
+Courses
+A1 on the Common European FrameWork of Reference, AUC
+Diploma at BackEnd-Developer(ASP.NET Core), Route Academy

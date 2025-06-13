@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Students\\CVs\\128436c9-b222-4c9a-8dc3-508295ca307e-Minimalist CV Resume.pdf",
+      "PackagePath": "staticwebassets\\files\\Students\\CVs\\128436c9-b222-4c9a-8dc3-508295ca307e-Minimalist CV Resume.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Students\\CVs\\35328d66-7999-4aaa-8f57-52604d08fcc6-Screenshot 2025-01-29 031901.png",
+      "PackagePath": "staticwebassets\\files\\Students\\CVs\\35328d66-7999-4aaa-8f57-52604d08fcc6-Screenshot 2025-01-29 031901.png"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Students\\CVs\\48cae3f8-9a18-43aa-926b-0e6911521a24-Screenshot 2025-02-04 185332.png",
+      "PackagePath": "staticwebassets\\files\\Students\\CVs\\48cae3f8-9a18-43aa-926b-0e6911521a24-Screenshot 2025-02-04 185332.png"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Students\\CVs\\63c95962-9f11-4271-8a33-f769d6ae68d7-Youssef-Ahmed-Abdulraouf.pdf",
+      "PackagePath": "staticwebassets\\files\\Students\\CVs\\63c95962-9f11-4271-8a33-f769d6ae68d7-Youssef-Ahmed-Abdulraouf.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Students\\Pictures\\468aeca1-ab9d-4649-8109-8538b759b8f7-Screenshot 2025-02-16 200936.png",
+      "PackagePath": "staticwebassets\\files\\Students\\Pictures\\468aeca1-ab9d-4649-8109-8538b759b8f7-Screenshot 2025-02-16 200936.png"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Students\\Pictures\\80fb72e4-012b-4d42-94e8-37c112a3e98a-Screenshot 2025-02-24 130130.png",
+      "PackagePath": "staticwebassets\\files\\Students\\Pictures\\80fb72e4-012b-4d42-94e8-37c112a3e98a-Screenshot 2025-02-24 130130.png"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Teams\\Pictures\\c87193db-253d-4772-a8b1-0cbdad2ae3e6-Deep Copy.png",
+      "PackagePath": "staticwebassets\\files\\Teams\\Pictures\\c87193db-253d-4772-a8b1-0cbdad2ae3e6-Deep Copy.png"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\Teams\\Pictures\\e4bc0bf5-bc21-4e39-96b1-2316e746b352-Joker BackGround.jpg",
+      "PackagePath": "staticwebassets\\files\\Teams\\Pictures\\e4bc0bf5-bc21-4e39-96b1-2316e746b352-Joker BackGround.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\documents\\68a1304f-acd7-4829-93ae-4e6533d3cb73.pdf",
+      "PackagePath": "staticwebassets\\files\\documents\\68a1304f-acd7-4829-93ae-4e6533d3cb73.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\documents\\786797a4-67d3-488f-b8b8-8de99e3ae36e.pdf",
+      "PackagePath": "staticwebassets\\files\\documents\\786797a4-67d3-488f-b8b8-8de99e3ae36e.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\documents\\7bedd130-a749-4688-9f55-83adad66bbff.pdf",
+      "PackagePath": "staticwebassets\\files\\documents\\7bedd130-a749-4688-9f55-83adad66bbff.pdf"
+    },
+    {
+      "Id": "C:\\Users\\ysfah\\source\\repos\\YSFAHM\\StudGoSystem\\StudGo.Web\\wwwroot\\files\\documents\\e6337ac7-9bcc-43b0-8c7f-b272e03f47c5.pdf",
+      "PackagePath": "staticwebassets\\files\\documents\\e6337ac7-9bcc-43b0-8c7f-b272e03f47c5.pdf"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudGo.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.StudGo.Web.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.StudGo.Web.props",
+      "PackagePath": "build\\StudGo.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.StudGo.Web.props",
+      "PackagePath": "buildMultiTargeting\\StudGo.Web.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.StudGo.Web.props",
+      "PackagePath": "buildTransitive\\StudGo.Web.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

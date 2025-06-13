@@ -1,0 +1,353 @@
+﻿@using StudGo.Service.Dtos.TemplateDto
+@model Agenda
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Agenda</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+        box-sizing: border-box;
+        }
+
+        body {
+        margin: 0;
+        font-family: 'Barlow', sans-serif;
+        background: #1f1f1f;
+        color: #f4f4f4;
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        }
+
+        /* Cover */
+        .cover {
+        height: 100vh;
+        background: linear-gradient(to bottom right, #ff4081, #1a1a1a);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 3rem;
+        }
+
+        .cover h1 {
+        font-family: 'Playfair Display', serif;
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        }
+
+        .cover p {
+        font-size: 1.4rem;
+        font-style: italic;
+        }
+
+        .badge {
+        margin-top: 2rem;
+        padding: 0.6rem 1.2rem;
+        border: 2px solid white;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+        background: rgba(0,0,0,0.2);
+        }
+
+        .container {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        background: #1f1f1f;
+        }
+
+        /* Content Section */
+        .content-section {
+        flex: 1;
+        padding: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+        position: relative;
+        background: #1f1f1f;
+        }
+
+        /* Activity Overview */
+        .overview {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-content: start;
+        }
+
+        .overview h2 {
+        grid-column: span 2;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        color: #4fc3f7;
+        margin-bottom: 2rem;
+        text-align: center;
+        position: relative;
+        padding-bottom: 1rem;
+        }
+
+        .overview h2::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        right: 25%;
+        height: 3px;
+        background: #4fc3f7;
+        }
+
+        .overview-item {
+        background: #2a2a2a;
+        padding: 1.5rem;
+        border-radius: 8px;
+        font-size: 1.1rem;
+        transition: transform 0.3s ease;
+        }
+
+        .overview-item:hover {
+        transform: translateY(-5px);
+        }
+
+        .description-section {
+        grid-column: span 2;
+        background: #2a2a2a;
+        padding: 2.5rem;
+        border-radius: 8px;
+        margin-top: 1rem;
+        }
+
+        .description-section strong {
+        display: block;
+        color: #4fc3f7;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        }
+
+        .description-section p {
+        margin: 0;
+        color: #f4f4f4;
+        font-size: 1.2rem;
+        line-height: 1.8;
+        }
+
+        /* Agenda Grid */
+        .agenda {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        align-content: start;
+        }
+
+        .agenda h2 {
+        grid-column: 1 / -1;
+        font-family: 'Playfair Display', serif;
+        font-size: 2.5rem;
+        color: #ff4081;
+        margin-bottom: 2rem;
+        text-align: center;
+        position: relative;
+        padding-bottom: 1rem;
+        }
+
+        .agenda h2::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        right: 25%;
+        height: 3px;
+        background: #ff4081;
+        }
+
+        .agenda-card {
+        background: #2a2a2a;
+        padding: 2rem;
+        border-radius: 10px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+        break-inside: avoid;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        transition: transform 0.3s ease;
+        }
+
+        .agenda-card:hover {
+        transform: translateY(-5px);
+        }
+
+        .tag {
+        font-size: 0.75rem;
+        background: #ff4081;
+        color: white;
+        padding: 0.3rem 0.6rem;
+        border-radius: 5px;
+        display: inline-block;
+        margin-bottom: 0.8rem;
+        text-transform: uppercase;
+        }
+
+        .agenda-card h3 {
+        margin-top: 0;
+        font-size: 1.4rem;
+        color: #ffffff;
+        }
+
+        .agenda-card p {
+        font-size: 0.95rem;
+        margin: 0.4rem 0;
+        color: #ccc;
+        }
+
+        .footer {
+        text-align: center;
+        padding: 2rem;
+        color: #666;
+        }
+
+        .print-button {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.25rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            z-index: 9999;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s ease;
+        }
+
+            .print-button:hover {
+                background-color: #e73370;
+            }
+
+
+        @@media print {
+        @@page {
+        size: A4;
+        margin: 0;
+        }
+
+        .print-button {
+        display: none !important;
+        }
+
+        body {
+        background: #1f1f1f !important;
+        color: #f4f4f4 !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        min-height: 100vh;
+        display: block !important;
+        }
+
+        .container {
+        display: block !important;
+        background: #1f1f1f !important;
+        max-width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 100vh !important;
+        }
+
+        .content-section {
+        min-height: 100vh !important;
+        padding: 4rem !important;
+        page-break-after: always;
+        background: #1f1f1f !important;
+        }
+
+        .overview h2::after, .agenda h2::after {
+        background: #4fc3f7 !important;
+        }
+
+        .overview-item, .description-section, .agenda-card {
+        background: #2a2a2a !important;
+        }
+
+        .description-section strong {
+        color: #4fc3f7 !important;
+        }
+
+        .agenda-card {
+        border-color: #ff4081 !important;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.5) !important;
+        page-break-inside: avoid;
+        }
+
+        .tag {
+        background: #ff4081 !important;
+        color: white !important;
+        }
+
+        .footer {
+        display: none;
+        }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Poster -->
+    <div class="cover">
+        <h1>@Model.Activity.Title</h1>
+        <p>@Model.Activity.StartDate.ToString("MMMM yyyy")</p>
+        <div class="badge">Digital Edition | Agenda</div>
+    </div>
+
+    <!-- Activity Info -->
+    <div class="container">
+        <div class="content-section">
+            <div class="overview">
+                <h2>Activity Overview</h2>
+                <div class="overview-item"><strong>Type</strong> @Model.Activity.ActivityType.ToString()</div>
+                <div class="overview-item"><strong>Category</strong> @Model.Activity.ActivityCategory.ToString()</div>
+                <div class="overview-item"><strong>Location</strong> @Model.Activity.Address</div>
+                <div class="overview-item"><strong>Seats</strong> @Model.Activity.NumberOfSeats</div>
+                <div class="overview-item"><strong>Start</strong> @Model.Activity.StartDate.ToString("dd MMMM yyyy")</div>
+                <div class="overview-item"><strong>End</strong> @Model.Activity.EndDate.ToString("dd MMMM yyyy")</div>
+                <div class="description-section">
+                    <strong>Description</strong>
+                    <p>@Model.Activity.Description</p>
+
+                </div>
+            </div>
+
+            <!-- Agenda Cards -->
+            <div class="agenda">
+                <h2>Agenda Highlights</h2>
+                @foreach(var content in Model.Contents) {
+                    <div class="agenda-card">
+                        <div>
+                            <span class="tag">@content.ContentType.ToString()</span>
+                            <h3>@content.Title</h3>
+                            <p><strong>Host:</strong> @content.HostName</p>
+
+                            <p><strong>Time:</strong> @content.StartDate.ToString("MMMM dd"), @content.StartDate.ToString("hh:mm tt") – @content.EndDate.ToString("hh:mm tt")</p>
+                            <p>@content.Description</p>
+                        </div>
+                    </div>
+                }
+
+
+      </div>
+    </div>
+  </div>
+    <button onclick="window.print()" class="print-button">🖨️ Print</button>
+</body>
+</html>

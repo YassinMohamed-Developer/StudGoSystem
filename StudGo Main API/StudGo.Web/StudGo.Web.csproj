@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <!--<ItemGroup>
+    --><!--<Compile Remove="wwwroot\Templates\Template1.cshtml\**" />--><!--
+    <Compile Remove="wwwroot\files\SavedPosters\**" />
+    --><!--<Content Remove="wwwroot\Templates\Template1.cshtml\**" />--><!--
+    <Content Remove="wwwroot\files\SavedPosters\**" />
+    --><!--<EmbeddedResource Remove="wwwroot\Templates\Template1.cshtml\**" />--><!--
+    <EmbeddedResource Remove="wwwroot\files\SavedPosters\**" />
+    --><!--<None Remove="wwwroot\Templates\Template1.cshtml\**" />--><!--
+    <None Remove="wwwroot\files\SavedPosters\**" />
+  </ItemGroup>-->
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis.Auth" Version="1.69.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.11">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StudGo.Service\StudGo.Service.csproj" />
+  </ItemGroup>
+
+  <!--<ItemGroup>
+    <Folder Include="wwwroot\files\Teams\Pictures\" />
+  </ItemGroup>-->
+
+  <!--<ItemGroup>
+    <None Include="wwwroot\Templates\Template1001.cshtml" />
+  </ItemGroup>-->
+	
+
+	<ItemGroup>
+		<Folder Include="wwwroot\" />
+	</ItemGroup>
+
+</Project>

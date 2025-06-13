@@ -1,0 +1,13 @@
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\bin\Debug\net9.0\StudGo.Data.deps.json
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\bin\Debug\net9.0\StudGo.Data.dll
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\bin\Debug\net9.0\StudGo.Data.pdb
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.csproj.AssemblyReference.cache
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.AssemblyInfoInputs.cache
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.AssemblyInfo.cs
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.csproj.CoreCompileInputs.cache
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.sourcelink.json
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.dll
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\refint\StudGo.Data.dll
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\StudGo.Data.pdb
+C:\Users\ysfah\source\repos\YSFAHM\StudGoSystem\StudGo.Data\obj\Debug\net9.0\ref\StudGo.Data.dll

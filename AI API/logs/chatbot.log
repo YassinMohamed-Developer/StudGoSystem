@@ -1,0 +1,411 @@
+2025-06-13 23:10:48,114 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2025-06-13 23:10:48,114 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-13 23:11:08,565 [INFO] api.main: Initializing sentence transformer embedder
+2025-06-13 23:11:08,566 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2025-06-13 23:11:08,567 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-13 23:11:10,405 [INFO] api.main: Initializing spaCy model
+2025-06-13 23:11:11,188 [INFO] api.main: Initializing CV Processor
+2025-06-13 23:11:11,188 [INFO] cv_processor: CV Processor initialized successfully
+2025-06-13 23:11:11,270 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:11:11,270 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:11:30,478 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:11:30,479 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:11:30,820 [INFO] cv_processor: Starting CV parsing for URL: files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:11:30,821 [INFO] cv_processor: Downloading CV from files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:11:30,821 [INFO] cv_processor: Converted relative URL to absolute URL: https://studgo.runasp.net/files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:11:31,615 [INFO] cv_processor: Successfully downloaded CV
+2025-06-13 23:11:31,615 [INFO] cv_processor: CV content type: application/pdf
+2025-06-13 23:11:31,615 [INFO] cv_processor: Parsing PDF CV
+2025-06-13 23:11:31,663 [INFO] cv_processor: Successfully extracted 2900 characters from PDF
+2025-06-13 23:11:31,663 [INFO] cv_processor: Cached CV to C:\Users\ysfah\OneDrive\Desktop\Project\AI API\cv_cache\e567da9f87f0612afba2cccaedcb5251.txt
+2025-06-13 23:11:31,664 [INFO] cv_processor: CV text length: 2900 characters
+2025-06-13 23:11:31,664 [INFO] cv_processor: Processing CV text with spaCy...
+2025-06-13 23:11:31,783 [INFO] cv_processor: Processed 492 tokens
+2025-06-13 23:11:31,783 [INFO] cv_processor: Extracting skills...
+2025-06-13 23:11:31,783 [INFO] cv_processor: Starting skills extraction...
+2025-06-13 23:11:31,784 [INFO] cv_processor: Found 5 skills sections
+2025-06-13 23:11:31,785 [INFO] cv_processor: Processing skills section: skills
+2025-06-13 23:11:31,785 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:11:31,788 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:11:31,789 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:11:31,792 [INFO] cv_processor: Processing skills section: Soft Skills
+2025-06-13 23:11:31,792 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:11:31,795 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:11:31,796 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:11:31,799 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:11:31,799 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:11:31,802 [INFO] cv_processor: Extracted 154 unique skills after cleaning
+2025-06-13 23:11:31,803 [INFO] cv_processor: Extracted 154 skills: ['projects', '04/2024', 'egypt', 'science', 'companies\n•customer area', 'helwan', 'cairo', 'core mvc', '•admin', 'programmer', 'demolink', 'accomplished coder', 'digital cubs', 'ecomart(e commerce', 'computers', 'manager asp.net', 'helwan university2021', 'api', '02/2025\nrepolink', 'core api', 'a 3-layer architecture', 'worker', 'hui', 'fcai', 'a hard worker', '01/2025', 'area', 'sripe gateway', 'cubs', 'enables', 'https://www.linkedin.com/in/yassin-mohamed-566876229/', 'identity', 'science student', 'sripe gateway  \nintegration', 'computer', '08/2024', 'fast learner person', 'instructor 03/2024', 'core identity', 'orders', 'asp.net core', 'website', 'gateway', 'framework', 'asp.net core identity', 'egypt https://www.linkedin.com/in/yassin-mohamed-566876229/', 'hard worker', 'completing', 'vax core', 'mvc', 'commerce mvc', 'my skills', 'api 01/2025', 'companies', 'commerce', 'yassin', 'mohamed student', 'university2021', '03/2024', 'seamless browsing', '•admin area', 'vaccine', 'gateway integration', 'coding instructor', 'asp.net mvc', 'education bachelor', 'asp.net identity', 'facilitates', 'computer student', 'an n-layer architecture', 'egypt \nhttps://www.linkedin.com/in/yassin-mohamed-566876229/', 'fcai hui', 'mohamed', 'artificial university2021', 'professional experience', 'instructor 05/2024', 'fcai-hui', '•customer', 'computer science', 'https://github.com/yassinmohamed-developer/ecommerce\ndemolink', 'technological advances', 'categories', 'projects mvc', '•customer area', '•technologies', 'https://github.com/yassinmohamed-developer/vaxmanager vaxmanager', 'https://github.com/yassinmohamed-developer/vaxmanager\nvaxmanager', 'framework core', 'skills', 'mvc website', 'entity framework', 'digital', 'cart', 'intelligence', 'education', 'intelligence helwan', 'vax', 'experience ischool', 'coder', 'profile', '05/2024', 'sripe', 'entity', 'faculty', 'fast person', 'advances', 'coding', 'layer', 'name', 'yassin mohamed', 'architecture', 'day', 'vaxmanager', 'asp.net', 'robust website', 'browsing', '02/2025 repolink', 'student', 'https://github.com/yassinmohamed-developer/vaxmanager', 'management', 'egypt cubs', 'repolink', 'vaccine management', '+201110972184 cairo', 'facilitates management', 'core', '01/2025 repolink', 'person', 'instructor', 'entity framework core', 'yassinmohamed.cs@gmail.com', 'an accomplished coder', 'yassin student', 'companies area', 'education\nbachelor', 'integration', '08/2024 cubs', 'https://ecomartapp.runasp.net/', 'professional', 'ecomart(e', 'ischool', '01/2025\nrepolink', 'manager', 'egypt ischool', '| cairo', 'exciting advances', 'learner person', 'n layer', 'bachelor', '02/2025', 'layer architecture', '+201110972184', 'products', 'that']
+2025-06-13 23:11:31,803 [INFO] cv_processor: Extracting experience...
+2025-06-13 23:11:31,803 [INFO] cv_processor: Starting experience extraction...
+2025-06-13 23:11:31,804 [INFO] cv_processor: Found 2 experience sections
+2025-06-13 23:11:31,804 [INFO] cv_processor: Processing experience section: Professional
+2025-06-13 23:11:31,804 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:11:31,805 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:11:31,805 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:11:31,805 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:11:31,806 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:11:31,806 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:11:31,806 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:11:31,806 [INFO] cv_processor: Processing experience section: Experience
+2025-06-13 23:11:31,807 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:11:31,807 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:11:31,807 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:11:31,808 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:11:31,808 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:11:31,809 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:11:31,809 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:11:31,809 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:11:31,810 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:11:31,810 [INFO] cv_processor: Extracting education...
+2025-06-13 23:11:31,810 [INFO] cv_processor: Starting education extraction...
+2025-06-13 23:11:31,810 [INFO] cv_processor: Found 1 education sections
+2025-06-13 23:11:31,811 [INFO] cv_processor: Processing education section: Education
+2025-06-13 23:11:31,811 [INFO] cv_processor: Analyzing 10 sentences for education
+2025-06-13 23:11:31,811 [INFO] cv_processor: Added education entry: {'date': '2025', 'institution': 'FCAI-HUI', 'degree': 'Helwan University2021'}
+2025-06-13 23:11:31,811 [INFO] cv_processor: Added education entry: {'institution': 'MVC', 'degree': 'ASP.NET Core'}
+2025-06-13 23:11:31,812 [INFO] cv_processor: Added education entry: {'degree': 'Gateway Integration', 'institution': 'ASP.NET Core Identity'}
+2025-06-13 23:11:31,812 [INFO] cv_processor: Added education entry: {'institution': 'VaxManager', 'degree': 'Core API'}
+2025-06-13 23:11:31,813 [INFO] cv_processor: Added education entry: {'degree': 'SMS notifications', 'institution': 'JWT'}
+2025-06-13 23:11:31,813 [INFO] cv_processor: Added education entry: {'institution': 'API', 'degree': 'ASP.NET Core'}
+2025-06-13 23:11:31,813 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:11:31,813 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:11:31,813 [INFO] cv_processor: Extracting extracurricular activities...
+2025-06-13 23:11:31,813 [INFO] cv_processor: Starting extracurricular activities extraction...
+2025-06-13 23:11:31,814 [INFO] cv_processor: Found 0 extracurricular sections
+2025-06-13 23:11:31,814 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:11:31,814 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:11:31,814 [INFO] cv_processor: CV parsing completed successfully
+2025-06-13 23:11:31,925 [ERROR] core: Error querying vector database: Collection [Activities] does not exists
+2025-06-13 23:11:35,031 [INFO] memory_manager: Added conversation exchange for student 1
+2025-06-13 23:14:12,841 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2025-06-13 23:14:12,841 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-13 23:14:26,281 [INFO] api.main: Initializing sentence transformer embedder
+2025-06-13 23:14:26,283 [INFO] sentence_transformers.SentenceTransformer: Use pytorch device_name: cpu
+2025-06-13 23:14:26,283 [INFO] sentence_transformers.SentenceTransformer: Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-06-13 23:14:27,947 [INFO] api.main: Initializing spaCy model
+2025-06-13 23:14:28,641 [INFO] api.main: Initializing CV Processor
+2025-06-13 23:14:28,641 [INFO] cv_processor: CV Processor initialized successfully
+2025-06-13 23:14:28,707 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:14:28,707 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:14:31,211 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:14:31,211 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:14:31,743 [INFO] memory_manager: Cleared chat history for student 1
+2025-06-13 23:14:41,094 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:14:41,094 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:14:41,452 [INFO] cv_processor: Starting CV parsing for URL: files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:14:41,453 [INFO] cv_processor: Using cached CV from C:\Users\ysfah\OneDrive\Desktop\Project\AI API\cv_cache\e567da9f87f0612afba2cccaedcb5251.txt
+2025-06-13 23:14:41,454 [INFO] cv_processor: CV text length: 2900 characters
+2025-06-13 23:14:41,454 [INFO] cv_processor: Processing CV text with spaCy...
+2025-06-13 23:14:41,568 [INFO] cv_processor: Processed 492 tokens
+2025-06-13 23:14:41,569 [INFO] cv_processor: Extracting skills...
+2025-06-13 23:14:41,569 [INFO] cv_processor: Starting skills extraction...
+2025-06-13 23:14:41,570 [INFO] cv_processor: Found 5 skills sections
+2025-06-13 23:14:41,570 [INFO] cv_processor: Processing skills section: skills
+2025-06-13 23:14:41,570 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:14:41,575 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:14:41,575 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:14:41,578 [INFO] cv_processor: Processing skills section: Soft Skills
+2025-06-13 23:14:41,579 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:14:41,582 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:14:41,582 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:14:41,588 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:14:41,588 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:14:41,592 [INFO] cv_processor: Extracted 154 unique skills after cleaning
+2025-06-13 23:14:41,592 [INFO] cv_processor: Extracted 154 skills: ['companies', 'facilitates management', 'entity framework core', 'computer student', 'education', 'vaccine management', 'fast learner person', 'completing', 'architecture', 'instructor 05/2024', 'entity', 'vax core', 'gateway', 'education bachelor', 'asp.net', '08/2024', 'coder', '01/2025\nrepolink', 'yassin', 'name', 'instructor 03/2024', '03/2024', 'https://github.com/yassinmohamed-developer/vaxmanager vaxmanager', 'yassin student', 'bachelor', 'yassin mohamed', 'egypt \nhttps://www.linkedin.com/in/yassin-mohamed-566876229/', 'browsing', 'that', 'skills', 'seamless browsing', 'a hard worker', 'mvc', 'core mvc', 'instructor', 'enables', 'gateway integration', 'https://www.linkedin.com/in/yassin-mohamed-566876229/', 'egypt ischool', 'hui', 'framework', 'layer', 'projects mvc', 'helwan university2021', 'fcai-hui', 'orders', '•customer area', '•technologies', '08/2024 cubs', 'person', 'asp.net core identity', 'manager asp.net', 'digital cubs', 'https://github.com/yassinmohamed-developer/ecommerce\ndemolink', '•admin', 'student', 'demolink', '05/2024', 'coding', 'sripe', 'an n-layer architecture', 'core api', 'fcai', 'day', 'a 3-layer architecture', 'learner person', 'profile', 'yassinmohamed.cs@gmail.com', 'fcai hui', 'n layer', 'products', 'cairo', 'entity framework', 'worker', 'accomplished coder', 'programmer', 'commerce', 'companies\n•customer area', 'core identity', 'https://github.com/yassinmohamed-developer/vaxmanager\nvaxmanager', 'robust website', 'website', 'science', 'professional', '02/2025', 'repolink', 'an accomplished coder', 'computer', 'https://github.com/yassinmohamed-developer/vaxmanager', 'helwan', 'computer science', 'intelligence', 'framework core', 'hard worker', 'ecomart(e commerce', '•customer', 'mohamed', 'sripe gateway', 'cubs', 'vaxmanager', 'mohamed student', '02/2025 repolink', '04/2024', 'fast person', 'experience ischool', 'egypt', 'companies area', 'egypt https://www.linkedin.com/in/yassin-mohamed-566876229/', 'exciting advances', 'coding instructor', 'sripe gateway  \nintegration', 'layer architecture', 'education\nbachelor', 'faculty', 'mvc website', 'manager', 'my skills', 'ischool', 'asp.net identity', '01/2025 repolink', 'intelligence helwan', 'egypt cubs', '+201110972184', 'asp.net core', 'categories', 'core', 'api 01/2025', 'computers', 'projects', 'commerce mvc', 'science student', '•admin area', 'identity', '| cairo', 'vax', 'cart', 'university2021', 'technological advances', '02/2025\nrepolink', 'https://ecomartapp.runasp.net/', 'professional experience', 'management', 'ecomart(e', 'facilitates', 'area', 'api', 'integration', '+201110972184 cairo', 'asp.net mvc', 'artificial university2021', 'digital', 'vaccine', '01/2025', 'advances']
+2025-06-13 23:14:41,592 [INFO] cv_processor: Extracting experience...
+2025-06-13 23:14:41,593 [INFO] cv_processor: Starting experience extraction...
+2025-06-13 23:14:41,594 [INFO] cv_processor: Found 2 experience sections
+2025-06-13 23:14:41,594 [INFO] cv_processor: Processing experience section: Professional
+2025-06-13 23:14:41,594 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:14:41,594 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:14:41,595 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:14:41,596 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:14:41,596 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:14:41,597 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:14:41,597 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:14:41,597 [INFO] cv_processor: Processing experience section: Experience
+2025-06-13 23:14:41,597 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:14:41,598 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:14:41,598 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:14:41,598 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:14:41,598 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:14:41,600 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:14:41,601 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:14:41,601 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:14:41,601 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:14:41,601 [INFO] cv_processor: Extracting education...
+2025-06-13 23:14:41,601 [INFO] cv_processor: Starting education extraction...
+2025-06-13 23:14:41,602 [INFO] cv_processor: Found 1 education sections
+2025-06-13 23:14:41,602 [INFO] cv_processor: Processing education section: Education
+2025-06-13 23:14:41,602 [INFO] cv_processor: Analyzing 10 sentences for education
+2025-06-13 23:14:41,603 [INFO] cv_processor: Added education entry: {'date': '2025', 'institution': 'FCAI-HUI', 'degree': 'Helwan University2021'}
+2025-06-13 23:14:41,603 [INFO] cv_processor: Added education entry: {'institution': 'MVC', 'degree': 'ASP.NET Core'}
+2025-06-13 23:14:41,603 [INFO] cv_processor: Added education entry: {'degree': 'Gateway Integration', 'institution': 'ASP.NET Core Identity'}
+2025-06-13 23:14:41,604 [INFO] cv_processor: Added education entry: {'institution': 'VaxManager', 'degree': 'Core API'}
+2025-06-13 23:14:41,604 [INFO] cv_processor: Added education entry: {'degree': 'SMS notifications', 'institution': 'JWT'}
+2025-06-13 23:14:41,605 [INFO] cv_processor: Added education entry: {'institution': 'API', 'degree': 'ASP.NET Core'}
+2025-06-13 23:14:41,605 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:14:41,605 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:14:41,605 [INFO] cv_processor: Extracting extracurricular activities...
+2025-06-13 23:14:41,605 [INFO] cv_processor: Starting extracurricular activities extraction...
+2025-06-13 23:14:41,606 [INFO] cv_processor: Found 0 extracurricular sections
+2025-06-13 23:14:41,606 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:14:41,606 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:14:41,606 [INFO] cv_processor: CV parsing completed successfully
+2025-06-13 23:14:48,024 [INFO] memory_manager: Added conversation exchange for student 1
+2025-06-13 23:15:25,053 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:15:25,053 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:15:25,798 [INFO] cv_processor: Starting CV parsing for URL: files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:15:25,798 [INFO] cv_processor: Using cached CV from C:\Users\ysfah\OneDrive\Desktop\Project\AI API\cv_cache\e567da9f87f0612afba2cccaedcb5251.txt
+2025-06-13 23:15:25,799 [INFO] cv_processor: CV text length: 2900 characters
+2025-06-13 23:15:25,799 [INFO] cv_processor: Processing CV text with spaCy...
+2025-06-13 23:15:25,897 [INFO] cv_processor: Processed 492 tokens
+2025-06-13 23:15:25,897 [INFO] cv_processor: Extracting skills...
+2025-06-13 23:15:25,897 [INFO] cv_processor: Starting skills extraction...
+2025-06-13 23:15:25,898 [INFO] cv_processor: Found 5 skills sections
+2025-06-13 23:15:25,898 [INFO] cv_processor: Processing skills section: skills
+2025-06-13 23:15:25,898 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:15:25,901 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:15:25,902 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:15:25,905 [INFO] cv_processor: Processing skills section: Soft Skills
+2025-06-13 23:15:25,905 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:15:25,909 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:15:25,909 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:15:25,912 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:15:25,912 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:15:25,916 [INFO] cv_processor: Extracted 154 unique skills after cleaning
+2025-06-13 23:15:25,916 [INFO] cv_processor: Extracted 154 skills: ['companies', 'facilitates management', 'entity framework core', 'computer student', 'education', 'vaccine management', 'fast learner person', 'completing', 'architecture', 'instructor 05/2024', 'entity', 'vax core', 'gateway', 'education bachelor', 'asp.net', '08/2024', 'coder', '01/2025\nrepolink', 'yassin', 'name', 'instructor 03/2024', '03/2024', 'https://github.com/yassinmohamed-developer/vaxmanager vaxmanager', 'yassin student', 'bachelor', 'yassin mohamed', 'egypt \nhttps://www.linkedin.com/in/yassin-mohamed-566876229/', 'browsing', 'that', 'skills', 'seamless browsing', 'a hard worker', 'mvc', 'core mvc', 'instructor', 'enables', 'gateway integration', 'https://www.linkedin.com/in/yassin-mohamed-566876229/', 'egypt ischool', 'hui', 'framework', 'layer', 'projects mvc', 'helwan university2021', 'fcai-hui', 'orders', '•customer area', '•technologies', '08/2024 cubs', 'person', 'asp.net core identity', 'manager asp.net', 'digital cubs', 'https://github.com/yassinmohamed-developer/ecommerce\ndemolink', '•admin', 'student', 'demolink', '05/2024', 'coding', 'sripe', 'an n-layer architecture', 'core api', 'fcai', 'day', 'a 3-layer architecture', 'learner person', 'profile', 'yassinmohamed.cs@gmail.com', 'fcai hui', 'n layer', 'products', 'cairo', 'entity framework', 'worker', 'accomplished coder', 'programmer', 'commerce', 'companies\n•customer area', 'core identity', 'https://github.com/yassinmohamed-developer/vaxmanager\nvaxmanager', 'robust website', 'website', 'science', 'professional', '02/2025', 'repolink', 'an accomplished coder', 'computer', 'https://github.com/yassinmohamed-developer/vaxmanager', 'helwan', 'computer science', 'intelligence', 'framework core', 'hard worker', 'ecomart(e commerce', '•customer', 'mohamed', 'sripe gateway', 'cubs', 'vaxmanager', 'mohamed student', '02/2025 repolink', '04/2024', 'fast person', 'experience ischool', 'egypt', 'companies area', 'egypt https://www.linkedin.com/in/yassin-mohamed-566876229/', 'exciting advances', 'coding instructor', 'sripe gateway  \nintegration', 'layer architecture', 'education\nbachelor', 'faculty', 'mvc website', 'manager', 'my skills', 'ischool', 'asp.net identity', '01/2025 repolink', 'intelligence helwan', 'egypt cubs', '+201110972184', 'asp.net core', 'categories', 'core', 'api 01/2025', 'computers', 'projects', 'commerce mvc', 'science student', '•admin area', 'identity', '| cairo', 'vax', 'cart', 'university2021', 'technological advances', '02/2025\nrepolink', 'https://ecomartapp.runasp.net/', 'professional experience', 'management', 'ecomart(e', 'facilitates', 'area', 'api', 'integration', '+201110972184 cairo', 'asp.net mvc', 'artificial university2021', 'digital', 'vaccine', '01/2025', 'advances']
+2025-06-13 23:15:25,916 [INFO] cv_processor: Extracting experience...
+2025-06-13 23:15:25,916 [INFO] cv_processor: Starting experience extraction...
+2025-06-13 23:15:25,917 [INFO] cv_processor: Found 2 experience sections
+2025-06-13 23:15:25,917 [INFO] cv_processor: Processing experience section: Professional
+2025-06-13 23:15:25,917 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:15:25,917 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:15:25,917 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:15:25,919 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:15:25,919 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:15:25,919 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:15:25,920 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:15:25,920 [INFO] cv_processor: Processing experience section: Experience
+2025-06-13 23:15:25,920 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:15:25,920 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:15:25,920 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:15:25,921 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:15:25,921 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:15:25,922 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:15:25,922 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:15:25,922 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:15:25,922 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:15:25,923 [INFO] cv_processor: Extracting education...
+2025-06-13 23:15:25,923 [INFO] cv_processor: Starting education extraction...
+2025-06-13 23:15:25,923 [INFO] cv_processor: Found 1 education sections
+2025-06-13 23:15:25,923 [INFO] cv_processor: Processing education section: Education
+2025-06-13 23:15:25,923 [INFO] cv_processor: Analyzing 10 sentences for education
+2025-06-13 23:15:25,924 [INFO] cv_processor: Added education entry: {'date': '2025', 'institution': 'FCAI-HUI', 'degree': 'Helwan University2021'}
+2025-06-13 23:15:25,924 [INFO] cv_processor: Added education entry: {'institution': 'MVC', 'degree': 'ASP.NET Core'}
+2025-06-13 23:15:25,924 [INFO] cv_processor: Added education entry: {'degree': 'Gateway Integration', 'institution': 'ASP.NET Core Identity'}
+2025-06-13 23:15:25,925 [INFO] cv_processor: Added education entry: {'institution': 'VaxManager', 'degree': 'Core API'}
+2025-06-13 23:15:25,925 [INFO] cv_processor: Added education entry: {'degree': 'SMS notifications', 'institution': 'JWT'}
+2025-06-13 23:15:25,925 [INFO] cv_processor: Added education entry: {'institution': 'API', 'degree': 'ASP.NET Core'}
+2025-06-13 23:15:25,925 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:15:25,926 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:15:25,926 [INFO] cv_processor: Extracting extracurricular activities...
+2025-06-13 23:15:25,926 [INFO] cv_processor: Starting extracurricular activities extraction...
+2025-06-13 23:15:25,926 [INFO] cv_processor: Found 0 extracurricular sections
+2025-06-13 23:15:25,926 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:15:25,926 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:15:25,926 [INFO] cv_processor: CV parsing completed successfully
+2025-06-13 23:15:48,303 [INFO] memory_manager: Added conversation exchange for student 1
+2025-06-13 23:16:17,392 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:16:17,392 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:16:17,748 [INFO] cv_processor: Starting CV parsing for URL: files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:16:17,748 [INFO] cv_processor: Using cached CV from C:\Users\ysfah\OneDrive\Desktop\Project\AI API\cv_cache\e567da9f87f0612afba2cccaedcb5251.txt
+2025-06-13 23:16:17,749 [INFO] cv_processor: CV text length: 2900 characters
+2025-06-13 23:16:17,749 [INFO] cv_processor: Processing CV text with spaCy...
+2025-06-13 23:16:17,846 [INFO] cv_processor: Processed 492 tokens
+2025-06-13 23:16:17,847 [INFO] cv_processor: Extracting skills...
+2025-06-13 23:16:17,847 [INFO] cv_processor: Starting skills extraction...
+2025-06-13 23:16:17,847 [INFO] cv_processor: Found 5 skills sections
+2025-06-13 23:16:17,848 [INFO] cv_processor: Processing skills section: skills
+2025-06-13 23:16:17,848 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:17,851 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:16:17,852 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:17,855 [INFO] cv_processor: Processing skills section: Soft Skills
+2025-06-13 23:16:17,855 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:17,859 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:16:17,859 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:17,862 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:16:17,862 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:17,865 [INFO] cv_processor: Extracted 154 unique skills after cleaning
+2025-06-13 23:16:17,866 [INFO] cv_processor: Extracted 154 skills: ['companies', 'facilitates management', 'entity framework core', 'computer student', 'education', 'vaccine management', 'fast learner person', 'completing', 'architecture', 'instructor 05/2024', 'entity', 'vax core', 'gateway', 'education bachelor', 'asp.net', '08/2024', 'coder', '01/2025\nrepolink', 'yassin', 'name', 'instructor 03/2024', '03/2024', 'https://github.com/yassinmohamed-developer/vaxmanager vaxmanager', 'yassin student', 'bachelor', 'yassin mohamed', 'egypt \nhttps://www.linkedin.com/in/yassin-mohamed-566876229/', 'browsing', 'that', 'skills', 'seamless browsing', 'a hard worker', 'mvc', 'core mvc', 'instructor', 'enables', 'gateway integration', 'https://www.linkedin.com/in/yassin-mohamed-566876229/', 'egypt ischool', 'hui', 'framework', 'layer', 'projects mvc', 'helwan university2021', 'fcai-hui', 'orders', '•customer area', '•technologies', '08/2024 cubs', 'person', 'asp.net core identity', 'manager asp.net', 'digital cubs', 'https://github.com/yassinmohamed-developer/ecommerce\ndemolink', '•admin', 'student', 'demolink', '05/2024', 'coding', 'sripe', 'an n-layer architecture', 'core api', 'fcai', 'day', 'a 3-layer architecture', 'learner person', 'profile', 'yassinmohamed.cs@gmail.com', 'fcai hui', 'n layer', 'products', 'cairo', 'entity framework', 'worker', 'accomplished coder', 'programmer', 'commerce', 'companies\n•customer area', 'core identity', 'https://github.com/yassinmohamed-developer/vaxmanager\nvaxmanager', 'robust website', 'website', 'science', 'professional', '02/2025', 'repolink', 'an accomplished coder', 'computer', 'https://github.com/yassinmohamed-developer/vaxmanager', 'helwan', 'computer science', 'intelligence', 'framework core', 'hard worker', 'ecomart(e commerce', '•customer', 'mohamed', 'sripe gateway', 'cubs', 'vaxmanager', 'mohamed student', '02/2025 repolink', '04/2024', 'fast person', 'experience ischool', 'egypt', 'companies area', 'egypt https://www.linkedin.com/in/yassin-mohamed-566876229/', 'exciting advances', 'coding instructor', 'sripe gateway  \nintegration', 'layer architecture', 'education\nbachelor', 'faculty', 'mvc website', 'manager', 'my skills', 'ischool', 'asp.net identity', '01/2025 repolink', 'intelligence helwan', 'egypt cubs', '+201110972184', 'asp.net core', 'categories', 'core', 'api 01/2025', 'computers', 'projects', 'commerce mvc', 'science student', '•admin area', 'identity', '| cairo', 'vax', 'cart', 'university2021', 'technological advances', '02/2025\nrepolink', 'https://ecomartapp.runasp.net/', 'professional experience', 'management', 'ecomart(e', 'facilitates', 'area', 'api', 'integration', '+201110972184 cairo', 'asp.net mvc', 'artificial university2021', 'digital', 'vaccine', '01/2025', 'advances']
+2025-06-13 23:16:17,866 [INFO] cv_processor: Extracting experience...
+2025-06-13 23:16:17,866 [INFO] cv_processor: Starting experience extraction...
+2025-06-13 23:16:17,866 [INFO] cv_processor: Found 2 experience sections
+2025-06-13 23:16:17,866 [INFO] cv_processor: Processing experience section: Professional
+2025-06-13 23:16:17,866 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:16:17,867 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:16:17,867 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:17,867 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:16:17,869 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:16:17,869 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:16:17,870 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:17,870 [INFO] cv_processor: Processing experience section: Experience
+2025-06-13 23:16:17,870 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:16:17,870 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:16:17,871 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:17,871 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:16:17,871 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:16:17,872 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:16:17,872 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:17,872 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:16:17,872 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:16:17,873 [INFO] cv_processor: Extracting education...
+2025-06-13 23:16:17,873 [INFO] cv_processor: Starting education extraction...
+2025-06-13 23:16:17,873 [INFO] cv_processor: Found 1 education sections
+2025-06-13 23:16:17,873 [INFO] cv_processor: Processing education section: Education
+2025-06-13 23:16:17,874 [INFO] cv_processor: Analyzing 10 sentences for education
+2025-06-13 23:16:17,874 [INFO] cv_processor: Added education entry: {'date': '2025', 'institution': 'FCAI-HUI', 'degree': 'Helwan University2021'}
+2025-06-13 23:16:17,874 [INFO] cv_processor: Added education entry: {'institution': 'MVC', 'degree': 'ASP.NET Core'}
+2025-06-13 23:16:17,875 [INFO] cv_processor: Added education entry: {'degree': 'Gateway Integration', 'institution': 'ASP.NET Core Identity'}
+2025-06-13 23:16:17,875 [INFO] cv_processor: Added education entry: {'institution': 'VaxManager', 'degree': 'Core API'}
+2025-06-13 23:16:17,876 [INFO] cv_processor: Added education entry: {'degree': 'SMS notifications', 'institution': 'JWT'}
+2025-06-13 23:16:17,876 [INFO] cv_processor: Added education entry: {'institution': 'API', 'degree': 'ASP.NET Core'}
+2025-06-13 23:16:17,876 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:16:17,876 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:16:17,876 [INFO] cv_processor: Extracting extracurricular activities...
+2025-06-13 23:16:17,876 [INFO] cv_processor: Starting extracurricular activities extraction...
+2025-06-13 23:16:17,877 [INFO] cv_processor: Found 0 extracurricular sections
+2025-06-13 23:16:17,877 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:16:17,877 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:16:17,877 [INFO] cv_processor: CV parsing completed successfully
+2025-06-13 23:16:21,493 [INFO] memory_manager: Added conversation exchange for student 1
+2025-06-13 23:16:39,953 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:16:39,953 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:16:40,294 [INFO] cv_processor: Starting CV parsing for URL: files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:16:40,295 [INFO] cv_processor: Using cached CV from C:\Users\ysfah\OneDrive\Desktop\Project\AI API\cv_cache\e567da9f87f0612afba2cccaedcb5251.txt
+2025-06-13 23:16:40,295 [INFO] cv_processor: CV text length: 2900 characters
+2025-06-13 23:16:40,295 [INFO] cv_processor: Processing CV text with spaCy...
+2025-06-13 23:16:40,397 [INFO] cv_processor: Processed 492 tokens
+2025-06-13 23:16:40,398 [INFO] cv_processor: Extracting skills...
+2025-06-13 23:16:40,398 [INFO] cv_processor: Starting skills extraction...
+2025-06-13 23:16:40,399 [INFO] cv_processor: Found 5 skills sections
+2025-06-13 23:16:40,399 [INFO] cv_processor: Processing skills section: skills
+2025-06-13 23:16:40,399 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:40,405 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:16:40,405 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:40,410 [INFO] cv_processor: Processing skills section: Soft Skills
+2025-06-13 23:16:40,410 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:40,413 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:16:40,414 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:40,417 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:16:40,418 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:16:40,421 [INFO] cv_processor: Extracted 154 unique skills after cleaning
+2025-06-13 23:16:40,421 [INFO] cv_processor: Extracted 154 skills: ['companies', 'facilitates management', 'entity framework core', 'computer student', 'education', 'vaccine management', 'fast learner person', 'completing', 'architecture', 'instructor 05/2024', 'entity', 'vax core', 'gateway', 'education bachelor', 'asp.net', '08/2024', 'coder', '01/2025\nrepolink', 'yassin', 'name', 'instructor 03/2024', '03/2024', 'https://github.com/yassinmohamed-developer/vaxmanager vaxmanager', 'yassin student', 'bachelor', 'yassin mohamed', 'egypt \nhttps://www.linkedin.com/in/yassin-mohamed-566876229/', 'browsing', 'that', 'skills', 'seamless browsing', 'a hard worker', 'mvc', 'core mvc', 'instructor', 'enables', 'gateway integration', 'https://www.linkedin.com/in/yassin-mohamed-566876229/', 'egypt ischool', 'hui', 'framework', 'layer', 'projects mvc', 'helwan university2021', 'fcai-hui', 'orders', '•customer area', '•technologies', '08/2024 cubs', 'person', 'asp.net core identity', 'manager asp.net', 'digital cubs', 'https://github.com/yassinmohamed-developer/ecommerce\ndemolink', '•admin', 'student', 'demolink', '05/2024', 'coding', 'sripe', 'an n-layer architecture', 'core api', 'fcai', 'day', 'a 3-layer architecture', 'learner person', 'profile', 'yassinmohamed.cs@gmail.com', 'fcai hui', 'n layer', 'products', 'cairo', 'entity framework', 'worker', 'accomplished coder', 'programmer', 'commerce', 'companies\n•customer area', 'core identity', 'https://github.com/yassinmohamed-developer/vaxmanager\nvaxmanager', 'robust website', 'website', 'science', 'professional', '02/2025', 'repolink', 'an accomplished coder', 'computer', 'https://github.com/yassinmohamed-developer/vaxmanager', 'helwan', 'computer science', 'intelligence', 'framework core', 'hard worker', 'ecomart(e commerce', '•customer', 'mohamed', 'sripe gateway', 'cubs', 'vaxmanager', 'mohamed student', '02/2025 repolink', '04/2024', 'fast person', 'experience ischool', 'egypt', 'companies area', 'egypt https://www.linkedin.com/in/yassin-mohamed-566876229/', 'exciting advances', 'coding instructor', 'sripe gateway  \nintegration', 'layer architecture', 'education\nbachelor', 'faculty', 'mvc website', 'manager', 'my skills', 'ischool', 'asp.net identity', '01/2025 repolink', 'intelligence helwan', 'egypt cubs', '+201110972184', 'asp.net core', 'categories', 'core', 'api 01/2025', 'computers', 'projects', 'commerce mvc', 'science student', '•admin area', 'identity', '| cairo', 'vax', 'cart', 'university2021', 'technological advances', '02/2025\nrepolink', 'https://ecomartapp.runasp.net/', 'professional experience', 'management', 'ecomart(e', 'facilitates', 'area', 'api', 'integration', '+201110972184 cairo', 'asp.net mvc', 'artificial university2021', 'digital', 'vaccine', '01/2025', 'advances']
+2025-06-13 23:16:40,421 [INFO] cv_processor: Extracting experience...
+2025-06-13 23:16:40,422 [INFO] cv_processor: Starting experience extraction...
+2025-06-13 23:16:40,422 [INFO] cv_processor: Found 2 experience sections
+2025-06-13 23:16:40,423 [INFO] cv_processor: Processing experience section: Professional
+2025-06-13 23:16:40,423 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:16:40,423 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:16:40,423 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:40,424 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:16:40,424 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:16:40,425 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:16:40,425 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:40,425 [INFO] cv_processor: Processing experience section: Experience
+2025-06-13 23:16:40,426 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:16:40,426 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:16:40,427 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:40,427 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:16:40,427 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:16:40,428 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:16:40,428 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:16:40,428 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:16:40,428 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:16:40,429 [INFO] cv_processor: Extracting education...
+2025-06-13 23:16:40,429 [INFO] cv_processor: Starting education extraction...
+2025-06-13 23:16:40,429 [INFO] cv_processor: Found 1 education sections
+2025-06-13 23:16:40,430 [INFO] cv_processor: Processing education section: Education
+2025-06-13 23:16:40,430 [INFO] cv_processor: Analyzing 10 sentences for education
+2025-06-13 23:16:40,430 [INFO] cv_processor: Added education entry: {'date': '2025', 'institution': 'FCAI-HUI', 'degree': 'Helwan University2021'}
+2025-06-13 23:16:40,431 [INFO] cv_processor: Added education entry: {'institution': 'MVC', 'degree': 'ASP.NET Core'}
+2025-06-13 23:16:40,431 [INFO] cv_processor: Added education entry: {'degree': 'Gateway Integration', 'institution': 'ASP.NET Core Identity'}
+2025-06-13 23:16:40,432 [INFO] cv_processor: Added education entry: {'institution': 'VaxManager', 'degree': 'Core API'}
+2025-06-13 23:16:40,432 [INFO] cv_processor: Added education entry: {'degree': 'SMS notifications', 'institution': 'JWT'}
+2025-06-13 23:16:40,433 [INFO] cv_processor: Added education entry: {'institution': 'API', 'degree': 'ASP.NET Core'}
+2025-06-13 23:16:40,433 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:16:40,433 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:16:40,433 [INFO] cv_processor: Extracting extracurricular activities...
+2025-06-13 23:16:40,433 [INFO] cv_processor: Starting extracurricular activities extraction...
+2025-06-13 23:16:40,434 [INFO] cv_processor: Found 0 extracurricular sections
+2025-06-13 23:16:40,434 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:16:40,434 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:16:40,434 [INFO] cv_processor: CV parsing completed successfully
+2025-06-13 23:16:43,089 [INFO] memory_manager: Added conversation exchange for student 1
+2025-06-13 23:17:19,634 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:17:19,634 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:17:19,987 [INFO] cv_processor: Starting CV parsing for URL: files/students/cvs/3ce21eee-bc26-4b95-a029-918ae9617a13-Yassin-Mohamed CV.pdf
+2025-06-13 23:17:19,987 [INFO] cv_processor: Using cached CV from C:\Users\ysfah\OneDrive\Desktop\Project\AI API\cv_cache\e567da9f87f0612afba2cccaedcb5251.txt
+2025-06-13 23:17:19,988 [INFO] cv_processor: CV text length: 2900 characters
+2025-06-13 23:17:19,988 [INFO] cv_processor: Processing CV text with spaCy...
+2025-06-13 23:17:20,085 [INFO] cv_processor: Processed 492 tokens
+2025-06-13 23:17:20,085 [INFO] cv_processor: Extracting skills...
+2025-06-13 23:17:20,086 [INFO] cv_processor: Starting skills extraction...
+2025-06-13 23:17:20,086 [INFO] cv_processor: Found 5 skills sections
+2025-06-13 23:17:20,086 [INFO] cv_processor: Processing skills section: skills
+2025-06-13 23:17:20,086 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:17:20,090 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:17:20,090 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:17:20,093 [INFO] cv_processor: Processing skills section: Soft Skills
+2025-06-13 23:17:20,094 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:17:20,097 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:17:20,097 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:17:20,100 [INFO] cv_processor: Processing skills section: Skills
+2025-06-13 23:17:20,100 [INFO] cv_processor: Analyzing 5 sentences for skills
+2025-06-13 23:17:20,104 [INFO] cv_processor: Extracted 154 unique skills after cleaning
+2025-06-13 23:17:20,104 [INFO] cv_processor: Extracted 154 skills: ['companies', 'facilitates management', 'entity framework core', 'computer student', 'education', 'vaccine management', 'fast learner person', 'completing', 'architecture', 'instructor 05/2024', 'entity', 'vax core', 'gateway', 'education bachelor', 'asp.net', '08/2024', 'coder', '01/2025\nrepolink', 'yassin', 'name', 'instructor 03/2024', '03/2024', 'https://github.com/yassinmohamed-developer/vaxmanager vaxmanager', 'yassin student', 'bachelor', 'yassin mohamed', 'egypt \nhttps://www.linkedin.com/in/yassin-mohamed-566876229/', 'browsing', 'that', 'skills', 'seamless browsing', 'a hard worker', 'mvc', 'core mvc', 'instructor', 'enables', 'gateway integration', 'https://www.linkedin.com/in/yassin-mohamed-566876229/', 'egypt ischool', 'hui', 'framework', 'layer', 'projects mvc', 'helwan university2021', 'fcai-hui', 'orders', '•customer area', '•technologies', '08/2024 cubs', 'person', 'asp.net core identity', 'manager asp.net', 'digital cubs', 'https://github.com/yassinmohamed-developer/ecommerce\ndemolink', '•admin', 'student', 'demolink', '05/2024', 'coding', 'sripe', 'an n-layer architecture', 'core api', 'fcai', 'day', 'a 3-layer architecture', 'learner person', 'profile', 'yassinmohamed.cs@gmail.com', 'fcai hui', 'n layer', 'products', 'cairo', 'entity framework', 'worker', 'accomplished coder', 'programmer', 'commerce', 'companies\n•customer area', 'core identity', 'https://github.com/yassinmohamed-developer/vaxmanager\nvaxmanager', 'robust website', 'website', 'science', 'professional', '02/2025', 'repolink', 'an accomplished coder', 'computer', 'https://github.com/yassinmohamed-developer/vaxmanager', 'helwan', 'computer science', 'intelligence', 'framework core', 'hard worker', 'ecomart(e commerce', '•customer', 'mohamed', 'sripe gateway', 'cubs', 'vaxmanager', 'mohamed student', '02/2025 repolink', '04/2024', 'fast person', 'experience ischool', 'egypt', 'companies area', 'egypt https://www.linkedin.com/in/yassin-mohamed-566876229/', 'exciting advances', 'coding instructor', 'sripe gateway  \nintegration', 'layer architecture', 'education\nbachelor', 'faculty', 'mvc website', 'manager', 'my skills', 'ischool', 'asp.net identity', '01/2025 repolink', 'intelligence helwan', 'egypt cubs', '+201110972184', 'asp.net core', 'categories', 'core', 'api 01/2025', 'computers', 'projects', 'commerce mvc', 'science student', '•admin area', 'identity', '| cairo', 'vax', 'cart', 'university2021', 'technological advances', '02/2025\nrepolink', 'https://ecomartapp.runasp.net/', 'professional experience', 'management', 'ecomart(e', 'facilitates', 'area', 'api', 'integration', '+201110972184 cairo', 'asp.net mvc', 'artificial university2021', 'digital', 'vaccine', '01/2025', 'advances']
+2025-06-13 23:17:20,104 [INFO] cv_processor: Extracting experience...
+2025-06-13 23:17:20,104 [INFO] cv_processor: Starting experience extraction...
+2025-06-13 23:17:20,104 [INFO] cv_processor: Found 2 experience sections
+2025-06-13 23:17:20,106 [INFO] cv_processor: Processing experience section: Professional
+2025-06-13 23:17:20,106 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:17:20,106 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:17:20,106 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:17:20,107 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:17:20,107 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:17:20,108 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:17:20,108 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:17:20,108 [INFO] cv_processor: Processing experience section: Experience
+2025-06-13 23:17:20,108 [INFO] cv_processor: Analyzing 10 sentences for experience
+2025-06-13 23:17:20,109 [INFO] cv_processor: Added experience entry: {'date': '2025', 'organization': 'FCAI-HUI', 'title': 'Helwan University2021'}
+2025-06-13 23:17:20,109 [INFO] cv_processor: Added experience entry: {'organization': 'MVC', 'title': 'ASP.NET Core'}
+2025-06-13 23:17:20,109 [INFO] cv_processor: Added experience entry: {'title': 'Gateway Integration', 'organization': 'ASP.NET Core Identity'}
+2025-06-13 23:17:20,110 [INFO] cv_processor: Added experience entry: {'organization': 'VaxManager', 'title': 'Core API'}
+2025-06-13 23:17:20,110 [INFO] cv_processor: Added experience entry: {'title': 'SMS notifications', 'organization': 'JWT'}
+2025-06-13 23:17:20,111 [INFO] cv_processor: Added experience entry: {'organization': 'API', 'title': 'ASP.NET Core'}
+2025-06-13 23:17:20,111 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:17:20,111 [INFO] cv_processor: Extracted 12 experience entries
+2025-06-13 23:17:20,111 [INFO] cv_processor: Extracting education...
+2025-06-13 23:17:20,111 [INFO] cv_processor: Starting education extraction...
+2025-06-13 23:17:20,112 [INFO] cv_processor: Found 1 education sections
+2025-06-13 23:17:20,112 [INFO] cv_processor: Processing education section: Education
+2025-06-13 23:17:20,112 [INFO] cv_processor: Analyzing 10 sentences for education
+2025-06-13 23:17:20,112 [INFO] cv_processor: Added education entry: {'date': '2025', 'institution': 'FCAI-HUI', 'degree': 'Helwan University2021'}
+2025-06-13 23:17:20,113 [INFO] cv_processor: Added education entry: {'institution': 'MVC', 'degree': 'ASP.NET Core'}
+2025-06-13 23:17:20,113 [INFO] cv_processor: Added education entry: {'degree': 'Gateway Integration', 'institution': 'ASP.NET Core Identity'}
+2025-06-13 23:17:20,113 [INFO] cv_processor: Added education entry: {'institution': 'VaxManager', 'degree': 'Core API'}
+2025-06-13 23:17:20,114 [INFO] cv_processor: Added education entry: {'degree': 'SMS notifications', 'institution': 'JWT'}
+2025-06-13 23:17:20,115 [INFO] cv_processor: Added education entry: {'institution': 'API', 'degree': 'ASP.NET Core'}
+2025-06-13 23:17:20,115 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:17:20,115 [INFO] cv_processor: Extracted 6 education entries
+2025-06-13 23:17:20,115 [INFO] cv_processor: Extracting extracurricular activities...
+2025-06-13 23:17:20,116 [INFO] cv_processor: Starting extracurricular activities extraction...
+2025-06-13 23:17:20,116 [INFO] cv_processor: Found 0 extracurricular sections
+2025-06-13 23:17:20,116 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:17:20,117 [INFO] cv_processor: Extracted 0 extracurricular activities
+2025-06-13 23:17:20,117 [INFO] cv_processor: CV parsing completed successfully
+2025-06-13 23:17:25,589 [INFO] memory_manager: Added conversation exchange for student 1
+2025-06-13 23:18:05,434 [INFO] memory_manager: Memory Manager initialized successfully
+2025-06-13 23:18:05,434 [INFO] core: Student Assistant initialized successfully
+2025-06-13 23:18:05,960 [INFO] memory_manager: Cleared chat history for student 1

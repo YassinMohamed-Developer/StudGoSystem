@@ -1,0 +1,220 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\68a1304f-acd7-4829-93ae-4e6533d3cb73.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/documents/68a1304f-acd7-4829-93ae-4e6533d3cb73.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>irsiz2bclp</Fingerprint>
+      <Integrity>4qJik9yjjC7mERKCr1Kh0SXSqYS02oK+R8kHi2xCyy4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\68a1304f-acd7-4829-93ae-4e6533d3cb73.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\786797a4-67d3-488f-b8b8-8de99e3ae36e.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/documents/786797a4-67d3-488f-b8b8-8de99e3ae36e.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n5rx53tjd9</Fingerprint>
+      <Integrity>RVfTtc2TXSb/VAL7hFe8eSZVlluhQh38rzU9LjvkFbM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\786797a4-67d3-488f-b8b8-8de99e3ae36e.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\7bedd130-a749-4688-9f55-83adad66bbff.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/documents/7bedd130-a749-4688-9f55-83adad66bbff.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>i588jah2tn</Fingerprint>
+      <Integrity>ujnjVhC94omecK3yx1F00K8TzhruF4fxCXp+uuxWKnw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\7bedd130-a749-4688-9f55-83adad66bbff.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\e6337ac7-9bcc-43b0-8c7f-b272e03f47c5.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/documents/e6337ac7-9bcc-43b0-8c7f-b272e03f47c5.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>imon013n29</Fingerprint>
+      <Integrity>anCGz23mK+kCVIDUAB9uRSLG4cxJezvm99KPW6cHBy0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\documents\e6337ac7-9bcc-43b0-8c7f-b272e03f47c5.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\128436c9-b222-4c9a-8dc3-508295ca307e-Minimalist CV Resume.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Students/CVs/128436c9-b222-4c9a-8dc3-508295ca307e-Minimalist CV Resume.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0skvw4noxh</Fingerprint>
+      <Integrity>8JrKCA+tiYgt/CKQ4H4xqzx9+n3cx0a7+SlnOaJ6t3U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\128436c9-b222-4c9a-8dc3-508295ca307e-Minimalist CV Resume.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\35328d66-7999-4aaa-8f57-52604d08fcc6-Screenshot 2025-01-29 031901.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Students/CVs/35328d66-7999-4aaa-8f57-52604d08fcc6-Screenshot 2025-01-29 031901.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>w8lyn22g1z</Fingerprint>
+      <Integrity>8IA1u/EUOhS0GjnUJrZkyM0QoIR79WsSARyL9+9eM4w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\35328d66-7999-4aaa-8f57-52604d08fcc6-Screenshot 2025-01-29 031901.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\48cae3f8-9a18-43aa-926b-0e6911521a24-Screenshot 2025-02-04 185332.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Students/CVs/48cae3f8-9a18-43aa-926b-0e6911521a24-Screenshot 2025-02-04 185332.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pt4398nb18</Fingerprint>
+      <Integrity>08spWMDrdzGwpGXWYskcQTUObjTg03dvROygPdvn89U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\48cae3f8-9a18-43aa-926b-0e6911521a24-Screenshot 2025-02-04 185332.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\63c95962-9f11-4271-8a33-f769d6ae68d7-Youssef-Ahmed-Abdulraouf.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Students/CVs/63c95962-9f11-4271-8a33-f769d6ae68d7-Youssef-Ahmed-Abdulraouf.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hiavl8n2bu</Fingerprint>
+      <Integrity>+Ys/u+xqTdwA+qzOJStxCO7CmVIa4fDlwu7IuFUANUc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\CVs\63c95962-9f11-4271-8a33-f769d6ae68d7-Youssef-Ahmed-Abdulraouf.pdf'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\Pictures\468aeca1-ab9d-4649-8109-8538b759b8f7-Screenshot 2025-02-16 200936.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Students/Pictures/468aeca1-ab9d-4649-8109-8538b759b8f7-Screenshot 2025-02-16 200936.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jo7qxunhf2</Fingerprint>
+      <Integrity>Y1Izjusxl04+q/WTMpImHrgOoUkZfIKawxrMosDeNrk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\Pictures\468aeca1-ab9d-4649-8109-8538b759b8f7-Screenshot 2025-02-16 200936.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\Pictures\80fb72e4-012b-4d42-94e8-37c112a3e98a-Screenshot 2025-02-24 130130.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Students/Pictures/80fb72e4-012b-4d42-94e8-37c112a3e98a-Screenshot 2025-02-24 130130.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rd422nl1pb</Fingerprint>
+      <Integrity>Ue8WwPuNkrav5KwWrXkTfaAABqrhRuX4ZDMea0mQE2Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Students\Pictures\80fb72e4-012b-4d42-94e8-37c112a3e98a-Screenshot 2025-02-24 130130.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Teams\Pictures\c87193db-253d-4772-a8b1-0cbdad2ae3e6-Deep Copy.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Teams/Pictures/c87193db-253d-4772-a8b1-0cbdad2ae3e6-Deep Copy.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>184fqt1por</Fingerprint>
+      <Integrity>3/6ea/FZpfXPMJtsgjaf2qiUSHsL/5+d0blW3ZQ7q/4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Teams\Pictures\c87193db-253d-4772-a8b1-0cbdad2ae3e6-Deep Copy.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Teams\Pictures\e4bc0bf5-bc21-4e39-96b1-2316e746b352-Joker BackGround.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudGo.Web</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudGo.Web</BasePath>
+      <RelativePath>files/Teams/Pictures/e4bc0bf5-bc21-4e39-96b1-2316e746b352-Joker BackGround.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6l0ke0o4bx</Fingerprint>
+      <Integrity>+o1mzCkVUOx61qhG4cQBINrT1Qt6QYWhIQHeSBMEiBE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\files\Teams\Pictures\e4bc0bf5-bc21-4e39-96b1-2316e746b352-Joker BackGround.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

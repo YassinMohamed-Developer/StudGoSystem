@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import 'leaflet/dist/leaflet.css';
+
+/* Fix for Leaflet marker icons */
+.leaflet-default-icon-path {
+  background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png);
+}
+
+.leaflet-default-shadow-path {
+  background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png);
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: rgba(31, 41, 55, 0.5);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(75, 85, 99, 0.8);
+  border-radius: 4px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(107, 114, 128, 0.8);
+}
+
+/* Map container styles */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+/* Ensure popups appear above other elements */
+.leaflet-popup {
+  z-index: 1000;
+}
+
+/* Base styles */
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    @apply bg-gray-900 text-white min-h-screen;
+  }
+}
+
+/* Custom components */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors;
+  }
+  
+  .card {
+    @apply bg-gray-800 rounded-lg p-4 shadow-lg;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500;
+  }
+}
+
+/* Remove overflow hidden from body */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+/* Customize scrollbar width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #1e1e2e; /* Dark background */
+  border-radius: 10px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #153872; /* Blue color */
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+/* On hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #183064; /* Darker blue */
+}
+
+/* Scrollbar corners */
+::-webkit-scrollbar-corner {
+  background: #1e1e2e;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #153872 #1e1e2e;
+}
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add some base styles for better text rendering */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Warning Lights Animation */
+.warning-light-red {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 20% 20%, rgba(255, 0, 0, 0.15) 0%, transparent 50%);
+  animation: warning-sweep 8s infinite;
+}
+
+.warning-light-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 80% 80%, rgba(0, 0, 255, 0.15) 0%, transparent 50%);
+  animation: warning-sweep 8s infinite reverse;
+}
+
+@keyframes warning-sweep {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Security Pattern */
+.security-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: 
+    linear-gradient(45deg, #ffffff 25%, transparent 25%),
+    linear-gradient(-45deg, #ffffff 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ffffff 75%),
+    linear-gradient(-45deg, transparent 75%, #ffffff 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+  opacity: 0.03;
+}
+
+/* Add animation delay utilities */
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+.stars, .stars2, .stars3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: transparent;
+}
+
+.stars {
+  background: radial-gradient(2px 2px at 20px 30px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 40px 70px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 50px 160px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 90px 40px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 130px 80px, #fff, rgba(0,0,0,0));
+  background-size: 200px 200px;
+  animation: twinkle-1 4s infinite;
+}
+
+.stars2 {
+  background: radial-gradient(2px 2px at 165px 155px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 150px 190px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 185px 70px, #fff, rgba(0,0,0,0));
+  background-size: 200px 200px;
+  animation: twinkle-2 6s infinite;
+}
+
+.stars3 {
+  background: radial-gradient(2px 2px at 190px 115px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 200px 70px, #fff, rgba(0,0,0,0)),
+              radial-gradient(2px 2px at 120px 155px, #fff, rgba(0,0,0,0));
+  background-size: 200px 200px;
+  animation: twinkle-3 8s infinite;
+}
+  
